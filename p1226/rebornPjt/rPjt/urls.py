@@ -7,6 +7,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
     path('magazine/', include('magazine.urls')),
+    path('store/', include('store.urls')),
+    path('board/', include('board.urls')),
+    path('restaurants/', include('restaurants.urls')),
 ]
 
 # 파일업로드시 url구성, urlpatterns에 추가 설정
