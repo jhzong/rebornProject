@@ -6,6 +6,7 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
+    path('magazine/', include('magazine.urls')),
 ]
 
 # 파일업로드시 url구성, urlpatterns에 추가 설정
